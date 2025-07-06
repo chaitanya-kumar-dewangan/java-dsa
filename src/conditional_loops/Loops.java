@@ -35,11 +35,38 @@ public class Loops {
         body
         }
          */
- int in = input.nextInt();
-        int num = 1;
-        while(num<= in){
-            System.out.print("  "+num);
-            num = num+1;
-        }
+// int in = input.nextInt();
+//        int num = 1;
+//        while(num<= in){
+//            System.out.print("  "+num);
+//            num = num+1;
+//        }
+
+
+        //when to use for and while loop
+    /*
+    1. use while loop only when we dont know how many times the loop is going to run when it is unpredictable
+     */
+
+
+        //do while loop
+
+    /*
+
+    syntax:
+    do{
+
+    //atleast once the body executes
+
+    }while(condition);
+     */
+        int i = 1;
+        do {
+            System.out.println(i);
+            i++;
+        } while (i < 5);
+
+
+
     }
 }
