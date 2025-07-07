@@ -16,5 +16,9 @@ public class CaseCheck {
         else {
             System.out.println("the input is not a valid character");
         }
+
+
     }
+
+    //32:39
 }
