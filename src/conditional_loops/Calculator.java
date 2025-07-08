@@ -30,10 +30,10 @@ public class Calculator {
                 if (op == '%') {
                     result = result % num1;
                 }
+            } else {
+                System.out.println("Invalid Operation");
             }
             System.out.println("Total:" +result);
         }
-
-
     }
 }
